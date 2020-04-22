@@ -1,0 +1,32 @@
+
+import java.util.*;
+
+public class ce {
+
+ 
+    public static void main(final String[] args) {
+        final Scanner scan = new Scanner(System.in);
+
+        String cpf;
+        String senha;
+        final double saldo = 1000.00;
+        
+        System.out.print("Digite seu CPF(com pontos): ");
+        cpf = scan.nextLine();
+        if(cpf.equals("123.456.789-00") == true){
+                    System.out.print("Digite sua senha: ");
+                    senha = scan.nextLine();                                                                              
+                if(senha.equals("01020304") == true){
+                System.out.print("teste");
+                }else{
+                    System.out.print("Conta Bloqueada");
+                }
+            }else{
+                System.out.print("Tela de acesso n�o permitido.");
+                
+            }  
+    }
+    }
+
+
+    
