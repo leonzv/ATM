@@ -8,13 +8,13 @@ public class Main
 		int rest, div,rest1,div1,rest2,div2,rest3,div3,rest4,div4,rest5,div5,rest6,div6,rest7,div7,rest8,div8,div9,rest9, num, form;
 		
 		System.out.print("Digite um numero para saber como ele é em binario: ");
-		num = scan.nextInt();
-		div = (num / 2);
+		num = scan.nextInt(); 
+		div = (num / 2);        /*
 		rest = (num % 2);
 		div1 = (div / 2);
 		rest1 = (div % 2);
 		div2 = (div1 / 2);
-		rest2 = (div1 % 2);
+		rest2 = (div1 % 2);           DIVIDINDO POR 2 E GRAVANDO O RESTO DA DIVISÃO EM CADA VARIAVEL
 		div3 = (div2 / 2);
 		rest3 = (div2 % 2);
 		div4 = (div3 / 2);
@@ -24,7 +24,7 @@ public class Main
 		div6 = (div5 / 2);
 		rest6 = (div5 % 2);
 		div7 = (div6 / 2);
-		rest7 = (div6 % 2);
-		System.out.print("o numero em binário é : " +rest7+rest6+rest5+rest4+rest3+rest2+rest1+rest);
+		rest7 = (div6 % 2);      */
+		System.out.print("o numero em binário é : " +rest7+rest6+rest5+rest4+rest3+rest2+rest1+rest); 
 	}
 }
