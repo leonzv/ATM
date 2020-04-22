@@ -22,7 +22,7 @@ public class ce {
                     System.out.print("Conta Bloqueada");
                 }
             }else{
-                System.out.print("Tela de acesso n�o permitido.");
+                System.out.print("Tela de acesso não permitido.");
                 
             }  
     }
