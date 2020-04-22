@@ -4,7 +4,7 @@ public class Main
 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+		//apenas usando variaveis
 		int rest, div,rest1,div1,rest2,div2,rest3,div3,rest4,div4,rest5,div5,rest6,div6,rest7,div7,rest8,div8,div9,rest9, num, form;
 		
 		System.out.print("Digite um numero para saber como ele é em binario: ");
