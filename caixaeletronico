@@ -59,6 +59,7 @@ public class Main {
 
                     if (tentativa == 0) {
                         System.out.print("Conta Bloqueada");
+                        break;
                     }
                     tentativa--;
                     System.out.println("Tentativas restantes " + tentativa);
