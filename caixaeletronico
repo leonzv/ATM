@@ -1,7 +1,6 @@
-
 import java.util.*;
 
-public class ce {
+public class Main {
 
     @SuppressWarnings("empty-statement")
     public static void main(final String[] args) {
@@ -55,6 +54,7 @@ public class ce {
                         default:
                             break;
                     }
+                    break;
                 } else {
 
                     if (tentativa == 0) {
