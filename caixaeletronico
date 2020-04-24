@@ -6,16 +6,16 @@ public class Main {
     public static void main(final String[] args) {
         final Scanner scan = new Scanner(System.in);
 
-        String cpf;
-        String senha;
-        double saldo = 1000.00;
-        int tentativa = 2;
-        double saque;
+        String cpf;  //variavel para definir se o cpf está certo
+        String senha; //variavel para definir se a senha está certa
+        double saldo = 1000.00; //saldo do cliente
+        int tentativa = 2; //variavel para diminuir as chances de tentar uma senha
+        double saque; //variavel para subtrair o saldo quando fazer o saque
 
-        System.out.print("Digite seu CPF(com pontos): ");
-        cpf = scan.nextLine();
-        if (cpf.equals("123.456.789-00") == true) {
-            do {
+        System.out.print("Digite seu CPF(com pontos): "); 
+        cpf = scan.nextLine();  
+        if (cpf.equals("123.456.789-00") == true) {   
+            do {    
                 System.out.print("Digite sua senha: ");
                 senha = scan.nextLine();
 
@@ -38,15 +38,14 @@ public class Main {
                             break;
                         case "3":
                             System.out.print("Quanto você deseja sacar: ");
-                            while (true) {
                                 if (scan.nextDouble() > saldo) {
                                     System.out.println("Seu saque é maior que o saldo");
                                 } else {
+                                    System.out.print("Digite novamente para confirmar: ");
                                     saldo = saldo - scan.nextDouble();
                                     System.out.print("Saldo atual: " + saldo);
                                     break;
                                 }
-                            }
 
                         case "0":
                             break;
