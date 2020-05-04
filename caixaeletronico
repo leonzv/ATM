@@ -32,12 +32,12 @@ public class Main {
                             System.out.print("Seu saldo é: " + saldo);
                             break;
                         case "2":
-                            System.out.print("Quanto você deseja depositar: ");
+                            System.out.print("Quanto você deseja depositar?: ");
                             saldo = saldo + scan.nextDouble();
                             System.out.print("Saldo atual: " + saldo);
                             break;
                         case "3":
-                            System.out.print("Quanto você deseja sacar: ");
+                            System.out.print("Quanto você deseja sacar?: ");
                                 if (scan.nextDouble() > saldo) {
                                     System.out.println("Seu saque é maior que o saldo");
                                 } else {
